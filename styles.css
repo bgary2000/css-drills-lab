@@ -1,0 +1,151 @@
+* {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif; 
+ }
+
+ body {
+     background-color: hex #d3d3d3;
+ }
+
+ h2, p, .readme-wrapper {
+     text-align: center;
+     
+ }
+
+ a {
+        text-decoration: none;
+        }
+
+ .boxes {
+     display: block;
+     margin: 1em 2em 2em 1em;
+     padding: 1em 1em 1em 1em;
+     border: solid;
+     border-radius: 5px;
+     width: 20%;
+ }
+
+ .readme-wrapper :hover {
+    font-weight: bold;
+    color: rgb(255, 127, 148);
+ }
+
+ span {
+     font-weight: bolder;
+     color: #0000ff;
+ }
+
+
+ div#box1 {
+   background-color: rgb(143, 188, 151);
+   position: relative;
+   
+   
+}
+
+div#box2 {
+    background-color: rgb(188, 181, 143);
+    position: relative;
+ }
+
+ div#box3 {
+    background-color: rgb(143, 181, 188);
+    position: relative;
+    
+ }
+
+ div#box4 {
+    background-color: rgb(188, 148, 143);
+    position: relative;
+    
+ }
+
+ .images {
+     width: 1em;
+     height: 1em;
+     background-color: cornflowerblue;
+     position: absolute;
+     top: 20px;
+     left: 0; 
+     clear: left;
+    
+ }
+
+ h2 {
+     display: inline;
+     position: relative;
+     clear: left;
+ }
+
+ h1 {
+     color:  #ff0000;
+
+ }
+
+ .favorite-show {
+     color: #800080;
+
+ }
+
+ .show {
+     color: #ffa500;
+ }
+
+ #show1 {
+     color: #0000ff; 
+ }
+
+ #show2 {
+    color: #ffa500; 
+}
+
+#show3 {
+    color: #008000; 
+}
+ 
+#show4 {
+    color: #800080; 
+}
+ 
+#show5 {
+    color:#ff0000; 
+}
+
+ul {
+    color: #a52a2a;
+}
+
+.friends {
+    color: red;
+}
+
+.cities {
+    color: blue;
+}
+
+.restaurants {
+    color: orange;
+}
+ 
+#list1 {
+    color: #a9a9a9;
+}
+ 
+#list2 {
+    color: #f70f0f;
+}
+
+#list3 {
+    color: #008b8b;
+}
+
+.aboutme {
+    border: solid;
+   color: #000;
+   border-width: 2px;
+   width: 20%;
+   display: block;
+     margin: 1em 2em 2em 1em;
+     padding: 1em 1em 1em 1em;
+     border-radius: 5px;
+     background-color: lightgray;
+}
